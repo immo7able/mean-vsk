@@ -1,0 +1,32 @@
+module.exports = [
+  {
+    id: 1,
+    info: 'New AI Model Achieves Breakthrough in Language Processing',
+    publishDate: '2025-03-07T12:00:00Z',
+    img: 'https://example.com/images/ai-news.jpg',
+    views: 1200,
+    likes: 350,
+    authorId: 1,
+    comments: [1, 2],
+  },
+  {
+    id: 2,
+    info: 'Stock Market Hits Record High Amid Economic Growth',
+    publishDate: '2025-03-06T14:30:00Z',
+    img: 'https://example.com/images/stock-market.jpg',
+    views: 850,
+    likes: 215,
+    authorId: 2,
+    comments: [2, 3],
+  },
+  {
+    id: 3,
+    info: 'Scientists Discover New Exoplanet with Earth-Like Conditions',
+    publishDate: '2025-03-05T10:00:00Z',
+    img: 'https://example.com/images/exoplanet.jpg',
+    views: 1500,
+    likes: 500,
+    authorId: 3,
+    comments: [1, 3],
+  },
+]
