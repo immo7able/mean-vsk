@@ -9,5 +9,6 @@ router.get('/:id', controller.getPostById) // GET /posts/:id
 router.post('/', validator, controller.createPost) // POST /posts
 router.put('/:id', validator, controller.updatePost) // PUT /posts/:id
 router.delete('/:id', controller.deletePost) // DELETE /posts/:id
+router.post('/:id/like', controller.likePost) // POST /posts/:id/like
 
 module.exports = router

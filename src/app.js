@@ -16,6 +16,9 @@ app.use(
 )
 app.use(express.json()) // Парсинг JSON-тела запроса
 app.use(logger) // Логирование запросов
+app.use(express.json()) // Затем парсим JSON
+app.use(express.urlencoded({ extended: true })) // Обрабатываем обычные формы
+
 
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')))
 
